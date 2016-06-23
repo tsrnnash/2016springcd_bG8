@@ -21,7 +21,7 @@
 <v t="amd.20160501220029.2"><vh>@button local pelican</vh></v>
 </v>
 <v t="amd.20160501215942.1" a="E"><vh>@path content/b/g8</vh>
-<v t="amd.20160501215720.1"><vh>@edit 40323226-cdw18.md</vh></v>
+<v t="amd.20160501215720.1"><vh>@edit 40323226-40323226.md</vh></v>
 </v>
 </v>
 </v>
