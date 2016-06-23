@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://tsrnnash.github.io/2016springcd_bG8/static/blog/</loc>
-<lastmod>2016-06-23T11:01:28-00:00</lastmod>
+<lastmod>2016-06-23T11:08:31-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://tsrnnash.github.io/2016springcd_bG8/static/blog/archives.html</loc>
-<lastmod>2016-06-23T11:01:28-00:00</lastmod>
+<lastmod>2016-06-23T11:08:31-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://tsrnnash.github.io/2016springcd_bG8/static/blog/tags.html</loc>
-<lastmod>2016-06-23T11:01:28-00:00</lastmod>
+<lastmod>2016-06-23T11:08:31-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://tsrnnash.github.io/2016springcd_bG8/static/blog/categories.html</loc>
-<lastmod>2016-06-23T11:01:28-00:00</lastmod>
+<lastmod>2016-06-23T11:08:31-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -95,22 +95,22 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>http://tsrnnash.github.io/2016springcd_bG8/static/blog/tag/40323199.html</loc>
-<lastmod>2016-06-23T10:06:19+08:06</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>http://tsrnnash.github.io/2016springcd_bG8/static/blog/tag/40323242.html</loc>
-<lastmod>2016-06-23T10:55:08+08:06</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
 <loc>http://tsrnnash.github.io/2016springcd_bG8/static/blog/tag/cdw18.html</loc>
 <lastmod>2016-06-23T10:59:37+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://tsrnnash.github.io/2016springcd_bG8/static/blog/tag/40323226.html</loc>
+<lastmod>2016-06-23T10:59:37+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://tsrnnash.github.io/2016springcd_bG8/static/blog/tag/40323237.html</loc>
+<lastmod>2016-06-23T10:55:08+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -123,7 +123,21 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>http://tsrnnash.github.io/2016springcd_bG8/static/blog/tag/40323237.html</loc>
+<loc>http://tsrnnash.github.io/2016springcd_bG8/static/blog/tag/40323199.html</loc>
+<lastmod>2016-06-23T10:06:19+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://tsrnnash.github.io/2016springcd_bG8/static/blog/tag/40323213.html</loc>
+<lastmod>2016-06-23T10:10:37+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://tsrnnash.github.io/2016springcd_bG8/static/blog/tag/40323242.html</loc>
 <lastmod>2016-06-23T10:55:08+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
@@ -137,15 +151,15 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>http://tsrnnash.github.io/2016springcd_bG8/static/blog/tag/40323226.html</loc>
-<lastmod>2016-06-23T10:59:37+08:06</lastmod>
+<loc>http://tsrnnash.github.io/2016springcd_bG8/static/blog/author/40323199.html</loc>
+<lastmod>2016-06-23T10:06:19+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://tsrnnash.github.io/2016springcd_bG8/static/blog/author/40323199.html</loc>
-<lastmod>2016-06-23T10:06:19+08:06</lastmod>
+<loc>http://tsrnnash.github.io/2016springcd_bG8/static/blog/author/40323213.html</loc>
+<lastmod>2016-06-23T10:10:37+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
