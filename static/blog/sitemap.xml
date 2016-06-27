@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./</loc>
-<lastmod>2016-06-27T22:09:44-00:00</lastmod>
+<lastmod>2016-06-27T22:13:29-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./archives.html</loc>
-<lastmod>2016-06-27T22:09:44-00:00</lastmod>
+<lastmod>2016-06-27T22:13:29-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tags.html</loc>
-<lastmod>2016-06-27T22:09:44-00:00</lastmod>
+<lastmod>2016-06-27T22:13:29-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./categories.html</loc>
-<lastmod>2016-06-27T22:09:44-00:00</lastmod>
+<lastmod>2016-06-27T22:13:29-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -116,21 +116,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>./tag/cdw11.html</loc>
-<lastmod>2016-06-27T22:08:10+08:06</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>./tag/40323199.html</loc>
-<lastmod>2016-06-27T21:50:46+08:06</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>./tag/cdw14.html</loc>
+<loc>./tag/cdw18.html</loc>
 <lastmod>2016-06-27T22:09:31+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
@@ -144,6 +130,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>./tag/40323199.html</loc>
+<lastmod>2016-06-27T21:50:46+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>./tag/cdw13.html</loc>
 <lastmod>2016-06-27T22:09:31+08:06</lastmod>
 <changefreq>daily</changefreq>
@@ -151,8 +144,15 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>./tag/cdw18.html</loc>
+<loc>./tag/cdw14.html</loc>
 <lastmod>2016-06-27T22:09:31+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./tag/cdw11.html</loc>
+<lastmod>2016-06-27T22:08:10+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
