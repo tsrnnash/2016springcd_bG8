@@ -5,68 +5,124 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./</loc>
+<<<<<<< HEAD
 <lastmod>2016-06-27T22:12:38-00:00</lastmod>
+=======
+<lastmod>2016-06-27T22:13:29-00:00</lastmod>
+>>>>>>> 16559db5356bb3dce8778282ba7491ca970e4f58
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./archives.html</loc>
+<<<<<<< HEAD
 <lastmod>2016-06-27T22:12:38-00:00</lastmod>
+=======
+<lastmod>2016-06-27T22:13:29-00:00</lastmod>
+>>>>>>> 16559db5356bb3dce8778282ba7491ca970e4f58
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tags.html</loc>
+<<<<<<< HEAD
 <lastmod>2016-06-27T22:12:38-00:00</lastmod>
+=======
+<lastmod>2016-06-27T22:13:29-00:00</lastmod>
+>>>>>>> 16559db5356bb3dce8778282ba7491ca970e4f58
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./categories.html</loc>
+<<<<<<< HEAD
 <lastmod>2016-06-27T22:12:38-00:00</lastmod>
+=======
+<lastmod>2016-06-27T22:13:29-00:00</lastmod>
+>>>>>>> 16559db5356bb3dce8778282ba7491ca970e4f58
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
+<<<<<<< HEAD
 <loc>./40323229-qi-mo-bao-gao.html</loc>
 <lastmod>2016-06-27T22:12:13+08:00</lastmod>
+=======
+<loc>./40323242-cdw18-qi-mo-bao-gao.html</loc>
+<lastmod>2016-06-27T22:09:31+08:00</lastmod>
+>>>>>>> 16559db5356bb3dce8778282ba7491ca970e4f58
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
+<<<<<<< HEAD
 <loc>./40323229-cdw13-bao-gao.html</loc>
 <lastmod>2016-06-27T22:12:13+08:00</lastmod>
+=======
+<loc>./40323242-cdw13-bao-gao.html</loc>
+<lastmod>2016-06-27T22:09:31+08:00</lastmod>
+>>>>>>> 16559db5356bb3dce8778282ba7491ca970e4f58
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
+<<<<<<< HEAD
 <loc>./40323229-cdw11-bao-gao.html</loc>
 <lastmod>2016-06-27T22:12:13+08:00</lastmod>
+=======
+<loc>./40323242-cdw14-bao-gao.html</loc>
+<lastmod>2016-06-27T22:09:31+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./40323213-cdw14-bao-gao.html</loc>
-<lastmod>2016-06-27T22:06:26+08:00</lastmod>
+<loc>./40323242-cdw11-bao-gao.html</loc>
+<lastmod>2016-06-27T22:08:10+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./40323213-qi-mo-bao-gao.html</loc>
-<lastmod>2016-06-27T22:06:26+08:00</lastmod>
+<lastmod>2016-06-27T22:06:25+08:00</lastmod>
+>>>>>>> 16559db5356bb3dce8778282ba7491ca970e4f58
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
+<<<<<<< HEAD
+<loc>./40323213-cdw14-bao-gao.html</loc>
+<lastmod>2016-06-27T22:06:26+08:00</lastmod>
+=======
+<loc>./40323213-cdw11-bao-gao.html</loc>
+<lastmod>2016-06-27T22:06:25+08:00</lastmod>
+>>>>>>> 16559db5356bb3dce8778282ba7491ca970e4f58
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<<<<<<< HEAD
+<loc>./40323213-qi-mo-bao-gao.html</loc>
+<lastmod>2016-06-27T22:06:26+08:00</lastmod>
+=======
+<loc>./40323213-cdw13-bao-gao.html</loc>
+<lastmod>2016-06-27T22:06:25+08:00</lastmod>
+>>>>>>> 16559db5356bb3dce8778282ba7491ca970e4f58
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<<<<<<< HEAD
 <loc>./40323213-cdw11-bao-gao.html</loc>
 <lastmod>2016-06-27T22:06:26+08:00</lastmod>
 <changefreq>monthly</changefreq>
@@ -76,53 +132,84 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>./40323213-cdw13-bao-gao.html</loc>
 <lastmod>2016-06-27T22:06:26+08:00</lastmod>
+=======
+<loc>./40323213-cdw14-bao-gao.html</loc>
+<lastmod>2016-06-27T22:06:25+08:00</lastmod>
+>>>>>>> 16559db5356bb3dce8778282ba7491ca970e4f58
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./xie-tong-chan-pin-she-ji-shi-xi-qi-mo-kao-zhou-zhuan-an-bao-gao.html</loc>
+<<<<<<< HEAD
 <lastmod>2016-06-27T21:47:38+08:00</lastmod>
+=======
+<lastmod>2016-06-27T21:50:46+08:00</lastmod>
+>>>>>>> 16559db5356bb3dce8778282ba7491ca970e4f58
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./category/ag100.html</loc>
+<<<<<<< HEAD
 <lastmod>2016-06-27T21:47:38+08:06</lastmod>
+=======
+<lastmod>2016-06-27T21:50:46+08:06</lastmod>
+>>>>>>> 16559db5356bb3dce8778282ba7491ca970e4f58
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./category/bg8.html</loc>
+<<<<<<< HEAD
 <lastmod>2016-06-27T22:12:13+08:06</lastmod>
+=======
+<lastmod>2016-06-27T22:09:31+08:06</lastmod>
+>>>>>>> 16559db5356bb3dce8778282ba7491ca970e4f58
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
+<<<<<<< HEAD
 <loc>./tag/40323199.html</loc>
 <lastmod>2016-06-27T21:47:38+08:06</lastmod>
+=======
+<loc>./tag/40323213.html</loc>
+<lastmod>2016-06-27T22:06:25+08:06</lastmod>
+>>>>>>> 16559db5356bb3dce8778282ba7491ca970e4f58
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tag/cdw18.html</loc>
+<<<<<<< HEAD
 <lastmod>2016-06-27T22:12:13+08:06</lastmod>
+=======
+<lastmod>2016-06-27T22:09:31+08:06</lastmod>
+>>>>>>> 16559db5356bb3dce8778282ba7491ca970e4f58
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
+<<<<<<< HEAD
 <loc>./tag/cdw14.html</loc>
 <lastmod>2016-06-27T22:06:26+08:06</lastmod>
+=======
+<loc>./tag/40323242.html</loc>
+<lastmod>2016-06-27T22:09:31+08:06</lastmod>
+>>>>>>> 16559db5356bb3dce8778282ba7491ca970e4f58
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
+<<<<<<< HEAD
 <loc>./tag/40323229.html</loc>
 <lastmod>2016-06-27T22:12:13+08:06</lastmod>
 <changefreq>daily</changefreq>
@@ -132,41 +219,74 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>./tag/cdw11.html</loc>
 <lastmod>2016-06-27T22:12:13+08:06</lastmod>
+=======
+<loc>./tag/40323199.html</loc>
+<lastmod>2016-06-27T21:50:46+08:06</lastmod>
+>>>>>>> 16559db5356bb3dce8778282ba7491ca970e4f58
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tag/cdw13.html</loc>
+<<<<<<< HEAD
 <lastmod>2016-06-27T22:12:13+08:06</lastmod>
+=======
+<lastmod>2016-06-27T22:09:31+08:06</lastmod>
+>>>>>>> 16559db5356bb3dce8778282ba7491ca970e4f58
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
+<<<<<<< HEAD
 <loc>./tag/40323213.html</loc>
 <lastmod>2016-06-27T22:06:26+08:06</lastmod>
+=======
+<loc>./tag/cdw14.html</loc>
+<lastmod>2016-06-27T22:09:31+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./tag/cdw11.html</loc>
+<lastmod>2016-06-27T22:08:10+08:06</lastmod>
+>>>>>>> 16559db5356bb3dce8778282ba7491ca970e4f58
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./author/40323199.html</loc>
+<<<<<<< HEAD
 <lastmod>2016-06-27T21:47:38+08:06</lastmod>
+=======
+<lastmod>2016-06-27T21:50:46+08:06</lastmod>
+>>>>>>> 16559db5356bb3dce8778282ba7491ca970e4f58
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./author/40323213.html</loc>
+<<<<<<< HEAD
 <lastmod>2016-06-27T22:06:26+08:06</lastmod>
+=======
+<lastmod>2016-06-27T22:06:25+08:06</lastmod>
+>>>>>>> 16559db5356bb3dce8778282ba7491ca970e4f58
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
+<<<<<<< HEAD
 <loc>./author/40323229.html</loc>
 <lastmod>2016-06-27T22:12:13+08:06</lastmod>
+=======
+<loc>./author/40323242.html</loc>
+<lastmod>2016-06-27T22:09:31+08:06</lastmod>
+>>>>>>> 16559db5356bb3dce8778282ba7491ca970e4f58
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
