@@ -21,27 +21,26 @@
 <v t="amd.20160501220029.2"><vh>@button local pelican</vh></v>
 </v>
 <v t="amd.20160501215942.1" a="E"><vh>@path content/b/g8</vh>
-<v t="amd.20160501215720.1"><vh>@edit 40323213_cdw11.md</vh></v>
-<v t="leo.20160616233514.1"><vh>@edit 40323213_cdw14.md</vh></v>
-<v t="leo.20160616233001.1"><vh>@edit 40323213_cdw13.md</vh></v>
-<v t="leo.20160616233802.1"><vh>@edit 40323213_cdw18.md</vh></v>
+<v t="leo.20160626215915.1"><vh>@edit 40323229_cdw11.md</vh></v>
+<v t="leo.20160626215918.1"><vh>@edit 40323229_cdw13.md</vh></v>
+<v t="leo.20160626215921.1"><vh>@edit 40323229_cdw18.md</vh></v>
 </v>
 </v>
 </v>
 </v>
 <v t="amd.20160501215545.1" a="E"><vh>wsgi 程式部份</vh>
-<v t="leo.20160526114228.1" a="E"><vh>@clean bg8_40323213.py</vh>
-<v t="leo.20160526115549.1"><vh>bg8_40323213 declarations</vh></v>
-<v t="leo.20160526115549.3"><vh>a4</vh></v>
-<v t="leo.20160526115702.1"><vh>DBAC</vh></v>
-<v t="leo.20160618195347.1"><vh>ABCD</vh></v>
-<v t="leo.20160627214404.1"><vh>Z</vh></v>
-<v t="leo.20160602113013.1"><vh>oo</vh></v>
-<v t="leo.20160602115334.1"><vh>oo2</vh></v>
+<v t="leo.20160616091709.1"><vh>@clean bg8_40323229.py</vh>
+<v t="leo.20160616094055.1"><vh>bg8_40323229 declarations</vh></v>
+<v t="leo.20160616094055.3"><vh>AAAA</vh></v>
+<v t="leo.20160616094209.1"><vh>ABCD</vh></v>
+<v t="leo.20160616095147.1"><vh>BADC</vh></v>
+<v t="leo.20160616095517.1"><vh>towcircle</vh></v>
+<v t="leo.20160616112452.1"><vh>vertical</vh></v>
+<v t="leo.20160616095151.1"><vh>threemesh</vh></v>
 </v>
-<v t="leo.20160616102950.1" a="E"><vh>@clean bg8_40323213_1.py</vh>
-<v t="leo.20160616103622.1"><vh>bg8_40323213_1 declarations</vh></v>
-<v t="leo.20160616103622.2"><vh>draw_oooo</vh></v>
+<v t="leo.20160627212541.1" a="E"><vh>@clean bg8_403232299.py</vh>
+<v t="leo.20160627212541.2"><vh>bg8_403232299 declarations</vh></v>
+<v t="leo.20160627212541.3"><vh>fish</vh></v>
 </v>
 <v t="amd.20160501221015.1" a="E"><vh>@path ./../../../</vh>
 <v t="amd.20160501221001.1" a="E"><vh>@clean myflaskapp.py</vh>
@@ -101,8 +100,11 @@ app.register_blueprint(users.b.g8.bg8_40323213_1.bg8_40323213_1)
 app.register_blueprint(users.b.g8.bg8_40323237.bg8_40323237)
 app.register_blueprint(users.b.g8.bg8_40323237_1.bg8_40323237_1)
 app.register_blueprint(users.b.g8.bg8_40323229.bg8_40323229)
+app.register_blueprint(users.b.g8.bg8_403232299.bg8_403232299)
 app.register_blueprint(users.b.g8.bg8_40323242.bg8_40323242)
 app.register_blueprint(users.b.g8.bg8_40323226.bg8_40323226)
+app.register_blueprint(users.b.g8.bg8_40323239.bg8_40323239)
+app.register_blueprint(users.b.g8.bg8_40323239_1.bg8_40323239_1)
 
 
 </t>
@@ -245,8 +247,11 @@ import users.b.g8.bg8_40323213_1
 import users.b.g8.bg8_40323237
 import users.b.g8.bg8_40323237_1
 import users.b.g8.bg8_40323229
+import users.b.g8.bg8_403232299
 import users.b.g8.bg8_40323242
 import users.b.g8.bg8_40323226
+import users.b.g8.bg8_40323239
+import users.b.g8.bg8_40323239_1
 
 # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
 _curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
@@ -509,13 +514,13 @@ def send_blog():
   return app.send_static_file('blog/index.html')
 
 </t>
-<t tx="leo.20160526114228.1">@language python
+<t tx="leo.20160616091709.1">@language python
 @tabwidth -4
 @others
 </t>
-<t tx="leo.20160526115549.1">from flask import Blueprint, request
+<t tx="leo.20160616094055.1">from flask import Blueprint, request
  
-bg8_40323213 = Blueprint('bg8_40323213', __name__, url_prefix='/bg8_40323213', template_folder='templates')
+bg8_40323229 = Blueprint('bg8_40323229', __name__, url_prefix='/bg8_40323229', template_folder='templates')
  
 head_str = '''
 &lt;!DOCTYPE html&gt;
@@ -651,12 +656,13 @@ class chain():
 '''
 
 </t>
-<t tx="leo.20160526115549.3">@bg8_40323213.route('/a4')
-def a4():
-    return head_str + chain_str + a4(0, 0) + tail_str 
+<t tx="leo.20160616094055.3">@bg8_40323229.route('/AAAA')
+def AAAA():
+    return head_str + chain_str + AAAA(0, 0) + tail_str
+
 
 # 傳繪 A 函式內容
-def a4(x, y, scale=1, color="blue"):
+def AAAA(x, y, scale=1, color="yellow"):
     outstring = '''
 # 利用 chain class 建立案例, 對應到 mychain 變數
 mychain = chain(scale='''+str(scale)+''', fillcolor="'''+str(color)+'''")
@@ -743,40 +749,19 @@ mychain.basic(x10, y10, x1, y1)
 '''
  
     return outstring</t>
-<t tx="leo.20160526115702.1">@bg8_40323213.route('/DBAC')
-def DBAC():
-    return head_str + chain_str + DBAC(0, 0) + tail_str 
+<t tx="leo.20160616094209.1">@bg8_40323229.route('/ABCD')
+def ABCD():
+    return head_str + chain_str + ABCD(0, 0) + tail_str
 
 # 傳繪 A 函式內容
-def DBAC(x, y, scale=1, color="red"):
+def ABCD(x, y, scale=1, color="yellow"):
     outstring = '''
 # 利用 chain class 建立案例, 對應到 mychain 變數
 mychain = chain(scale='''+str(scale)+''', fillcolor="'''+str(color)+'''")
  
-# 畫 D
-# 左邊四個垂直單元
-x1, y1 = mychain.basic_rot(0, 0, 90)
-x2, y2 = mychain.basic_rot(x1, y1, 90)
-x3, y3 = mychain.basic_rot(x2, y2, 90)
-x4, y4 = mychain.basic_rot(x3, y3, 90)
-# 上方一個水平單元
-x5, y5 = mychain.basic_rot(x4, y4, 0)
-# 右斜 -40 度
-x6, y6 = mychain.basic_rot(x5, y5, -40)
-x7, y7 = mychain.basic_rot(x6, y6, -60)
-# 右中垂直向下單元
-x8, y8 = mychain.basic_rot(x7, y7, -90)
-# -120 度
-x9, y9 = mychain.basic_rot(x8, y8, -120)
-# -140
-x10, y10 = mychain.basic_rot(x9, y9, -140)
-# 水平接回原點
-mychain.basic(x10, y10, 0, 0)
-
-cgo.setWorldCoords(-315, -250, 500, 500)
 # 畫 B
 # 左邊四個垂直單元
-x1, y1 = mychain.basic_rot(5, 0, 90)
+x1, y1 = mychain.basic_rot(0, 0, 90)
 x2, y2 = mychain.basic_rot(x1, y1, 90)
 x3, y3 = mychain.basic_rot(x2, y2, 90)
 x4, y4 = mychain.basic_rot(x3, y3, 90)
@@ -799,10 +784,11 @@ x12, y12 = mychain.basic_rot(x11, y11, 210)
 # 水平接回起點
 mychain.basic(x12,y12, 0, 0)
 
+
 cgo.setWorldCoords(-247.5, -350, 500, 500) 
 # 畫 A
 # 左邊兩個垂直單元
-x1, y1 = mychain.basic_rot(135,-100, 90)
+x1, y1 = mychain.basic_rot(0, 0, 90)
 x2, y2 = mychain.basic_rot(x1, y1, 90)
 # 左斜邊兩個單元
 x3, y3 = mychain.basic_rot(x2, y2, 80)
@@ -819,192 +805,162 @@ x9, y9 = mychain.basic_rot(x8, y8, -90)
 x10, y10 = mychain.basic_rot(x8, y8, -180)
 mychain.basic(x10, y10, x1, y1)
 
-cgo.setWorldCoords(-445, -250, 500, 500) 
-
-# 畫 C
+cgo.setWorldCoords(-55, -50, 500, 500) 
+# 畫 D
 # 左邊四個垂直單元
-x1, y1 = mychain.basic_rot(45, 0, 180)
-x2, y2 = mychain.basic_rot(x1, y1, 150)
-x3, y3 = mychain.basic_rot(x2, y2, 120)
+x1, y1 = mychain.basic_rot(0+65*3, 0, 90)
+x2, y2 = mychain.basic_rot(x1, y1, 90)
+x3, y3 = mychain.basic_rot(x2, y2, 90)
 x4, y4 = mychain.basic_rot(x3, y3, 90)
-x5, y5 = mychain.basic_rot(x4, y4, 60)
-x6, y6 = mychain.basic_rot(x5, y5, 30)
-x7, y7 = mychain.basic_rot(x6, y6, 0)
+# 上方一個水平單元
+x5, y5 = mychain.basic_rot(x4, y4, 0)
+# 右斜 -40 度
+x6, y6 = mychain.basic_rot(x5, y5, -40)
+x7, y7 = mychain.basic_rot(x6, y6, -60)
+# 右中垂直向下單元
+x8, y8 = mychain.basic_rot(x7, y7, -90)
+# -120 度
+x9, y9 = mychain.basic_rot(x8, y8, -120)
+# -140
+x10, y10 = mychain.basic_rot(x9, y9, -140)
+# 水平接回原點
+mychain.basic(x10, y10, 0+65*3, 0)
 
-cgo.setWorldCoords(-500, -500, 500, 500)
+cgo.setWorldCoords(-120, -150, 500, 500) 
+# 畫 C
+# 上半部
+# 左邊中間垂直起點, 圓心位於線段中央, y 方向再向上平移兩個鏈條圓心距單位
+x1, y1 = mychain.basic_rot(0+65*2, -10+10+20*math.sin(80*deg)+20*math.sin(30*deg), 90)
+# 上方轉 80 度
+x2, y2 = mychain.basic_rot(x1, y1, 80)
+# 上方轉 30 度
+x3, y3 = mychain.basic_rot(x2, y2, 30)
+# 上方水平
+x4, y4 = mychain.basic_rot(x3, y3, 0)
+# 下半部, 從起點開始 -80 度
+x5, y5 = mychain.basic_rot(0+65*2, -10+10+20*math.sin(80*deg)+20*math.sin(30*deg), -80)
+# 下斜 -30 度
+x6, y6 = mychain.basic_rot(x5, y5, -30)
+# 下方水平單元
+x7, y7 = mychain.basic_rot(x6, y6, -0)
+&lt;/script&gt;
+&lt;/body&gt;&lt;/html&gt;
 '''
- 
-    return outstring</t>
-<t tx="leo.20160602113013.1">@bg8_40323213.route('/oo/&lt;x&gt;/&lt;y&gt;')
-@bg8_40323213.route('/oo', defaults={'x':0, 'y':0})
-def twocircle(x,y):
-    return head_str + chain_str + oo(int(x), int(y)) + tail_str
- 
-
-def oo(x, y):
-    '''
-從圖解法與符號式解法得到的兩條外切線座標點
-(-203.592946177111, 0.0), (0.0, 0.0), (-214.364148466539, 56.5714145924675), (-17.8936874260919, 93.9794075692901)
-(-203.592946177111, 0.0), (0.0, 0.0), (-214.364148466539, -56.5714145924675), (-17.8936874260919, -93.9794075692901)
-左邊關鍵鍊條起點 (-233.06, 49.48), 角度 20.78, 圓心 (-203.593, 0.0)
-右邊關鍵鍊條起點 (-17.89, 93.9), 角度 4.78, 圓心 (0, 0)
-    '''
-    # 20 為鏈條兩圓距
-    # chain 所圍之圓圈半徑為 20/2/math.asin(degree*math.pi/180/2)
-    # degree = math.asin(20/2/radius)*180/math.pi
-    x = 50
-    y = 0
-    degree = 20
-    first_degree = 20.78
-    startx = -233.06+100
-    starty = 49.48
-    repeat = 360 / degree
-    # 先畫出左邊第一關鍵節
-    outstring = '''
-mychain = chain()
- 
-x1, y1 = mychain.basic_rot('''+str(startx)+","+str(starty)+", "+str(first_degree)+''')
- 
-'''
-    # 接著繪製左邊的非虛擬鍊條
-    for i in range(2, int(repeat)+1):
-        if i &gt;=13 and i &lt;=11:
-            # virautl chain
-            #outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+","+str(first_degree+degree-i*degree)+") \n"
-            outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+","+str(first_degree+degree-i*degree)+", True) \n"
-        else:
-            outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+","+str(first_degree+degree-i*degree)+") \n"
- 
-    # 接著處理右邊的非虛擬鍊條
-    # 先畫出右邊第一關鍵節
- 
-    p = -17.89+100
-    k = 93.98
-    degree = 12
-    first_degree = 4.78
-    repeat = 360 / degree
-    # 第1節不是 virtual chain
-    outstring += '''
-#mychain = chain()
- 
-p1, k1 = mychain.basic_rot('''+str(p)+","+str(k)+", "+str(first_degree)+''')
-'''
-    for i in range(2, int(repeat)+1):
-        if i &gt;=36:
-            # virautl chain
-            outstring += "p"+str(i)+", k"+str(i)+"=mychain.basic_rot(p"+str(i-1)+", k"+str(i-1)+","+str(first_degree+degree-i*degree)+", True) \n"
-            #outstring += "p"+str(i)+", k"+str(i)+"=mychain.basic_rot(p"+str(i-1)+", k"+str(i-1)+","+str(first_degree+degree-i*degree)+") \n"
-        else:
-            outstring += "p"+str(i)+", k"+str(i)+"=mychain.basic_rot(p"+str(i-1)+", k"+str(i-1)+","+str(first_degree+degree-i*degree)+") \n"
- 
-
- 
-    return outstring</t>
-<t tx="leo.20160602115334.1">@bg8_40323213.route('/oo2/&lt;x&gt;/&lt;y&gt;')
-@bg8_40323213.route('/oo2', defaults={'x':0, 'y':0})
-def twocircle2(x,y):
-    return head_str + chain_str + oo2(int(x), int(y)) + tail_str
- 
-
-def oo2(x, y):
-    '''
-從圖解法與符號式解法得到的兩條外切線座標點
-(-203.592946177111, 0.0), (0.0, 0.0), (-214.364148466539, 56.5714145924675), (-17.8936874260919, 93.9794075692901)
-(-203.592946177111, 0.0), (0.0, 0.0), (-214.364148466539, -56.5714145924675), (-17.8936874260919, -93.9794075692901)
-左邊關鍵鍊條起點 (-233.06, 49.48), 角度 20.78, 圓心 (-203.593, 0.0)
-右邊關鍵鍊條起點 (-17.89, 93.9), 角度 4.78, 圓心 (0, 0)
-    '''
-    # 20 為鏈條兩圓距
-    # chain 所圍之圓圈半徑為 20/2/math.asin(degree*math.pi/180/2)
-    # degree = math.asin(20/2/radius)*180/math.pi
-    x = 50
-    y = 0
-    degree = 20
-    first_degree = 90+20
-    startx = -56.00
-    starty = -125
-    repeat = 360 / degree
-    # 先畫出左邊第一關鍵節
-    outstring = '''
-mychain = chain()
- 
-x1, y1 = mychain.basic_rot('''+str(startx)+","+str(starty)+", "+str(first_degree)+''')
- 
-'''
-    # 接著繪製左邊的非虛擬鍊條
-    for i in range(2, int(repeat)+1):
-        if i &gt;=2 and i &lt;=11:
-            # virautl chain
-            #outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+","+str(first_degree+degree-i*degree)+") \n"
-            outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+","+str(first_degree+degree-i*degree)+", True) \n"
-        else:
-            outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+","+str(first_degree+degree-i*degree)+") \n"
- 
-    # 接著處理右邊的非虛擬鍊條
-    # 先畫出右邊第一關鍵節
- 
-    p = -100
-    k = 93.98
-    degree = 12
-    first_degree = 95
-    repeat = 360 / degree
-    # 第1節不是 virtual chain
-    outstring += '''
-#mychain = chain()
- 
-p1, k1 = mychain.basic_rot('''+str(p)+","+str(k)+", "+str(first_degree)+''')
-'''
-    for i in range(2, int(repeat)+1):
-        if i &gt;=18:
-            # virautl chain
-            outstring += "p"+str(i)+", k"+str(i)+"=mychain.basic_rot(p"+str(i-1)+", k"+str(i-1)+","+str(first_degree+degree-i*degree)+", True) \n"
-            #outstring += "p"+str(i)+", k"+str(i)+"=mychain.basic_rot(p"+str(i-1)+", k"+str(i-1)+","+str(first_degree+degree-i*degree)+") \n"
-        else:
-            outstring += "p"+str(i)+", k"+str(i)+"=mychain.basic_rot(p"+str(i-1)+", k"+str(i-1)+","+str(first_degree+degree-i*degree)+") \n"
- 
-    # 上段連接直線
-    # 從 x1, y1 作為起點
-    first_degree = 10.78+90
-    repeat = 10
-    outstring += '''
-m1, n1 = mychain.basic_rot(x1, y1, '''+str(first_degree)+''')
-'''
-    for i in range(2, int(repeat)+1):
-        outstring += "m"+str(i)+", n"+str(i)+"=mychain.basic_rot(m"+str(i-1)+", n"+str(i-1)+", "+str(first_degree)+")\n"
- 
-    # 下段連接直線
-    # 從 x11, y11 作為起點
-    first_degree = -10.78+90
-    repeat = 10
-    outstring += '''
-r1, s1 = mychain.basic_rot(x11, y11, '''+str(first_degree)+''')
-'''
-    for i in range(2, int(repeat)+1):
-        outstring += "r"+str(i)+", s"+str(i)+"=mychain.basic_rot(r"+str(i-1)+", s"+str(i-1)+", "+str(first_degree)+")\n"
- 
     return outstring
- </t>
-<t tx="leo.20160616102950.1">@language python
-@tabwidth -4
-@others
 </t>
-<t tx="leo.20160616103622.1">from flask import Blueprint, request
+<t tx="leo.20160616095147.1">@bg8_40323229.route('/BADC')
+def BADC():
+    return head_str + chain_str + BADC(0, 0) + tail_str
 
-bg8_40323213_1 = Blueprint('bg8_40323213_1', __name__, url_prefix='/bg8_40323213_1', template_folder='templates')
+# 傳繪 A 函式內容
+def BADC(x, y, scale=1, color="yellow"):
+    outstring = '''
+# 利用 chain class 建立案例, 對應到 mychain 變數
+mychain = chain(scale='''+str(scale)+''', fillcolor="'''+str(color)+'''")
+ 
 
-</t>
-<t tx="leo.20160616103622.2">@bg8_40323213_1.route('/oooo', defaults={'n1':17,'n2':29,'n3':15,'n4':23})
-@bg8_40323213_1.route('/oooo/&lt;n1&gt;/&lt;n2&gt;/&lt;n3&gt;/&lt;n4&gt;')
-def draw_oooo(n1, n2, n3,n4):
-    outstring='''
+# 畫 B
+# 左邊四個垂直單元
+x1, y1 = mychain.basic_rot(0, 0, 90)
+x2, y2 = mychain.basic_rot(x1, y1, 90)
+x3, y3 = mychain.basic_rot(x2, y2, 90)
+x4, y4 = mychain.basic_rot(x3, y3, 90)
+# 上方一個水平單元
+x5, y5 = mychain.basic_rot(x4, y4, 0)
+# 右斜 -30 度
+x6, y6 = mychain.basic_rot(x5, y5, -30)
+# 右上垂直向下單元
+x7, y7 = mychain.basic_rot(x6, y6, -90)
+# 右斜 240 度
+x8, y8 = mychain.basic_rot(x7, y7, 210)
+# 中間水平
+mychain.basic(x8, y8, x2, y2)
+# 右下斜 -30 度
+x10, y10 = mychain.basic_rot(x8, y8, -30)
+# 右下垂直向下單元
+x11, y11 = mychain.basic_rot(x10, y10, -90)
+# 右下斜 240 度
+x12, y12 = mychain.basic_rot(x11, y11, 210)
+# 水平接回起點
+mychain.basic(x12,y12, 0, 0)
+
+cgo.setWorldCoords(-310, -250, 500, 500) 
+# 畫 A
+# 左邊兩個垂直單元
+x1, y1 = mychain.basic_rot(0, 0, 90)
+x2, y2 = mychain.basic_rot(x1, y1, 90)
+# 左斜邊兩個單元
+x3, y3 = mychain.basic_rot(x2, y2, 80)
+x4, y4 = mychain.basic_rot(x3, y3, 71)
+# 最上方水平單元
+x5, y5 = mychain.basic_rot(x4, y4, 0)
+# 右斜邊兩個單元
+x6, y6 = mychain.basic_rot(x5, y5, -71)
+x7, y7 = mychain.basic_rot(x6, y6, -80)
+# 右邊兩個垂直單元
+x8, y8 = mychain.basic_rot(x7, y7, -90)
+x9, y9 = mychain.basic_rot(x8, y8, -90)
+# 中間兩個水平單元
+x10, y10 = mychain.basic_rot(x8, y8, -180)
+mychain.basic(x10, y10, x1, y1)
+
+cgo.setWorldCoords(-310, -250, 500, 500) 
+# 畫 C
+# 上半部
+# 左邊中間垂直起點, 圓心位於線段中央, y 方向再向上平移兩個鏈條圓心距單位
+x1, y1 = mychain.basic_rot(0+65*2, -10+10+20*math.sin(80*deg)+20*math.sin(30*deg), 90)
+# 上方轉 80 度
+x2, y2 = mychain.basic_rot(x1, y1, 80)
+# 上方轉 30 度
+x3, y3 = mychain.basic_rot(x2, y2, 30)
+# 上方水平
+x4, y4 = mychain.basic_rot(x3, y3, 0)
+# 下半部, 從起點開始 -80 度
+x5, y5 = mychain.basic_rot(0+65*2, -10+10+20*math.sin(80*deg)+20*math.sin(30*deg), -80)
+# 下斜 -30 度
+x6, y6 = mychain.basic_rot(x5, y5, -30)
+# 下方水平單元
+x7, y7 = mychain.basic_rot(x6, y6, -0)
+
+cgo.setWorldCoords(-180, -250, 500, 500) 
+# 畫 D
+# 左邊四個垂直單元
+x1, y1 = mychain.basic_rot(0+65*3, 0, 90)
+x2, y2 = mychain.basic_rot(x1, y1, 90)
+x3, y3 = mychain.basic_rot(x2, y2, 90)
+x4, y4 = mychain.basic_rot(x3, y3, 90)
+# 上方一個水平單元
+x5, y5 = mychain.basic_rot(x4, y4, 0)
+# 右斜 -40 度
+x6, y6 = mychain.basic_rot(x5, y5, -40)
+x7, y7 = mychain.basic_rot(x6, y6, -60)
+# 右中垂直向下單元
+x8, y8 = mychain.basic_rot(x7, y7, -90)
+# -120 度
+x9, y9 = mychain.basic_rot(x8, y8, -120)
+# -140
+x10, y10 = mychain.basic_rot(x9, y9, -140)
+# 水平接回原點
+mychain.basic(x10, y10, 0+65*3, 0)
+&lt;/script&gt;
+&lt;/body&gt;&lt;/html&gt;
+'''
+    return outstring</t>
+<t tx="leo.20160616095151.1">@bg8_40323229.route('/threemesh', defaults={'n1':15,'n2':20,'n3':18,'n4':10})
+@bg8_40323229.route('/threemesh/&lt;n1&gt;/&lt;n2&gt;/&lt;n3&gt;/&lt;n4&gt;')
+def threemesh(n1, n2, n3,n4):
+    # 真正最後的架構應該要在函式中準備繪圖所需的資料, 然後用 template 呈現內容
+    title = "網際 2D 繪圖"
+    head = '''
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
     &lt;meta charset="UTF-8"&gt;
-    &lt;title&gt;網際 2D 鏈條繪圖&lt;/title&gt;
+    &lt;title&gt;'''+ title +'''&lt;/title&gt;
     &lt;!-- IE 9: display inline SVG --&gt;
     &lt;meta http-equiv="X-UA-Compatible" content="IE=9"&gt;
-
+'''
+    script = '''
 &lt;script type="text/javascript" src="http://brython.info/src/brython_dist.js"&gt;&lt;/script&gt;
 &lt;script type="text/javascript" src="http://2015fallhw.github.io/cptocadp/static/Cango-8v03.js"&gt;&lt;/script&gt;
 &lt;script type="text/javascript" src="http://2015fallhw.github.io/cptocadp/static/Cango2D-7v01-min.js"&gt;&lt;/script&gt;
@@ -1015,8 +971,21 @@ window.onload=function(){
 brython(1);
 }
 &lt;/script&gt;
- 
-&lt;canvas id='gear1' width='800' height='750'&gt;&lt;/canvas&gt;
+'''
+    headstring = head + script + "&lt;/head&gt;"
+    # 能否根據 n1, n2, n3 與 width, 算出合理的 height
+    # 模數計算 m = canvas.width*0.8/(n1+n2+n3)
+    # max([int(n1), int(n2), int(n3)])
+    # 所以 height = 1.2*800*0.8/(int(n1)+int(n2)+int(n3))*max([int(n1), int(n2), int(n3)])
+    height = 1.2*800*0.8/(int(n1)+int(n2)+int(n3)+int(n4))*max([int(n1), int(n2), int(n3),int(n4)])
+    body = '''
+    
+延伸應用:&lt;br /&gt;
+
+軸孔加入 keyway &lt;br /&gt;
+與 3D 零件設計繪圖對應 &lt;br/&gt;
+與 2D/3D 軸的設計與繪圖對應&lt;br /&gt;&lt;br /&gt;
+&lt;canvas id='gear1' width='800' height="'''+str(int(height))+'''"&gt;&lt;/canvas&gt;
  
 &lt;script type="text/python"&gt;
 # 將 導入的 document 設為 doc 主要原因在於與舊程式碼相容
@@ -1044,7 +1013,7 @@ creategeartooth = JSConstructor(window.createGearTooth)
  
 # 經由 Cango 轉換成 Brython 的 cango, 指定將圖畫在 id="plotarea" 的 canvas 上
 cgo = cango("gear1")
-
+ 
 ######################################
 # 畫正齒輪輪廓
 #####################################
@@ -1136,138 +1105,319 @@ spur(cx+pr1+pr2, cy, m, n2, pa, 180-180/n2)
 # 但是第2齒為了與第一齒囓合時, 已經從原始定位線轉了 180-180/n2 度
 # 而當第2齒從與第3齒囓合的定位線, 逆時鐘旋轉 180-180/n2 角度後, 原先囓合的第3齒必須要再配合旋轉 (180-180/n2 )*n2/n3
 spur(cx+pr1+pr2+pr2+pr3, cy, m, n3, pa, 180-180/n3+(180-180/n2)*n2/n3)
-spur(cx+pr1+pr2+pr2+pr3+pr3+pr4, cy, m, n4, pa, 180-180/n4+(180-180/n3)*n3/n4)
+spur(cx+pr1+pr2+pr2+pr3+pr3+pr4, cy, m, n4, pa, 180-180/n4+(180-180/n3)*n3/n4+180-180/n4)
 &lt;/script&gt;
 '''
+    bodystring = "&lt;body&gt;" + body+"&lt;/body&gt;"
+    endstring = "&lt;/html&gt;"
+    outstring = headstring + bodystring + endstring
     return outstring
+    # 若 template 檔案名稱與位於外部 templates 目錄中的檔案同名, 則取外部的 template
+   # return render_template('g1index.html', user=user)</t>
+<t tx="leo.20160616095517.1">@bg8_40323229.route('/twocircle/&lt;x&gt;/&lt;y&gt;')
+@bg8_40323229.route('/twocircle', defaults={'x':0, 'y':0})
+def twocircle(x,y):
+    return head_str + chain_str + twocircle(int(x), int(y)) + tail_str
+ 
+
+def twocircle(x, y):
+    '''
+從圖解法與符號式解法得到的兩條外切線座標點
+(-203.592946177111, 0.0), (0.0, 0.0), (-214.364148466539, 56.5714145924675), (-17.8936874260919, 93.9794075692901)
+(-203.592946177111, 0.0), (0.0, 0.0), (-214.364148466539, -56.5714145924675), (-17.8936874260919, -93.9794075692901)
+左邊關鍵鍊條起點 (-233.06, 49.48), 角度 20.78, 圓心 (-203.593, 0.0)
+右邊關鍵鍊條起點 (-17.89, 93.9), 角度 4.78, 圓心 (0, 0)
+    '''
+    # 20 為鏈條兩圓距
+    # chain 所圍之圓圈半徑為 20/2/math.asin(degree*math.pi/180/2)
+    # degree = math.asin(20/2/radius)*180/math.pi
+    x = 50
+    y = 0
+    degree = 20
+    first_degree = 20.78
+    startx = -233.06+100
+    starty = 49.48
+    repeat = 360 / degree
+    # 先畫出左邊第一關鍵節
+    outstring = '''
+mychain = chain()
+ 
+x1, y1 = mychain.basic_rot('''+str(startx)+","+str(starty)+", "+str(first_degree)+''')
+ 
+'''
+    # 接著繪製左邊的非虛擬鍊條
+    for i in range(2, int(repeat)+1):
+        if i &gt;=13 and i &lt;=11:
+            # virautl chain
+            #outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+","+str(first_degree+degree-i*degree)+") \n"
+            outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+","+str(first_degree+degree-i*degree)+", True) \n"
+        else:
+            outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+","+str(first_degree+degree-i*degree)+") \n"
+ 
+    # 接著處理右邊的非虛擬鍊條
+    # 先畫出右邊第一關鍵節
+ 
+    p = -17.89+100
+    k = 93.98
+    degree = 12
+    first_degree = 4.78
+    repeat = 360 / degree
+    # 第1節不是 virtual chain
+    outstring += '''
+#mychain = chain()
+ 
+p1, k1 = mychain.basic_rot('''+str(p)+","+str(k)+", "+str(first_degree)+''')
+'''
+    for i in range(2, int(repeat)+1):
+        if i &gt;=36:
+            # virautl chain
+            outstring += "p"+str(i)+", k"+str(i)+"=mychain.basic_rot(p"+str(i-1)+", k"+str(i-1)+","+str(first_degree+degree-i*degree)+", True) \n"
+            #outstring += "p"+str(i)+", k"+str(i)+"=mychain.basic_rot(p"+str(i-1)+", k"+str(i-1)+","+str(first_degree+degree-i*degree)+") \n"
+        else:
+            outstring += "p"+str(i)+", k"+str(i)+"=mychain.basic_rot(p"+str(i-1)+", k"+str(i-1)+","+str(first_degree+degree-i*degree)+") \n"
+ 
+
+ 
+    return outstring</t>
+<t tx="leo.20160616112452.1">@bg8_40323229.route('/vertical/&lt;x&gt;/&lt;y&gt;')
+@bg8_40323229.route('/vertical', defaults={'x':0, 'y':0})
+def vertical(x,y):
+    return head_str + chain_str + vertical(int(x), int(y)) + tail_str
+
+
+def vertical(x, y):
+    '''
+從圖解法與符號式解法得到的兩條外切線座標點
+(-203.592946177111, 0.0), (0.0, 0.0), (-214.364148466539, 56.5714145924675), (-17.8936874260919, 93.9794075692901)
+(-203.592946177111, 0.0), (0.0, 0.0), (-214.364148466539, -56.5714145924675), (-17.8936874260919, -93.9794075692901)
+左邊關鍵鍊條起點 (-233.06, 49.48), 角度 20.78, 圓心 (-203.593, 0.0)
+右邊關鍵鍊條起點 (-17.89, 93.9), 角度 4.78, 圓心 (0, 0)
+    '''
+    # 20 為鏈條兩圓距
+    # chain 所圍之圓圈半徑為 20/2/math.asin(degree*math.pi/180/2)
+    # degree = math.asin(20/2/radius)*180/math.pi
+    x = 50
+    y = 0
+    degree = 20
+    first_degree = 110
+    startx = -50
+    starty = -110
+    repeat = 360 / degree
+    # 先畫出左邊第一關鍵節
+    outstring = '''
+mychain = chain()
+ 
+x1, y1 = mychain.basic_rot('''+str(startx)+","+str(starty)+", "+str(first_degree)+''')
+ 
+'''
+    # 接著繪製左邊的非虛擬鍊條
+    for i in range(2, int(repeat)+1):
+        if i &gt;=2 and i &lt;=11:
+            # virautl chain
+            #outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+","+str(first_degree+degree-i*degree)+") \n"
+            outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+","+str(first_degree+degree-i*degree)+", True) \n"
+        else:
+            outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+","+str(first_degree+degree-i*degree)+") \n"
+ 
+    # 接著處理右邊的非虛擬鍊條
+    # 先畫出右邊第一關鍵節
+ 
+    p = -93.7
+    k = 105
+    degree = 12
+    first_degree = 96
+    repeat = 360 / degree
+    # 第1節不是 virtual chain
+    outstring += '''
+#mychain = chain()
+ 
+p1, k1 = mychain.basic_rot('''+str(p)+","+str(k)+", "+str(first_degree)+''')
+'''
+    for i in range(2, int(repeat)+1):
+        if i &gt;=18:
+            # virautl chain
+            outstring += "p"+str(i)+", k"+str(i)+"=mychain.basic_rot(p"+str(i-1)+", k"+str(i-1)+","+str(first_degree+degree-i*degree)+", True) \n"
+            #outstring += "p"+str(i)+", k"+str(i)+"=mychain.basic_rot(p"+str(i-1)+", k"+str(i-1)+","+str(first_degree+degree-i*degree)+") \n"
+        else:
+            outstring += "p"+str(i)+", k"+str(i)+"=mychain.basic_rot(p"+str(i-1)+", k"+str(i-1)+","+str(first_degree+degree-i*degree)+") \n"
+ 
+    # 上段連接直線
+    # 從 x1, y1 作為起點
+    first_degree = 100.7
+    repeat = 10
+    outstring += '''
+m1, n1 = mychain.basic_rot(x1, y1, '''+str(first_degree)+''')
+'''
+    for i in range(2, int(repeat)+1):
+        outstring += "m"+str(i)+", n"+str(i)+"=mychain.basic_rot(m"+str(i-1)+", n"+str(i-1)+", "+str(first_degree)+")\n"
+ 
+    # 下段連接直線
+    # 從 x11, y11 作為起點
+    first_degree = 79.3
+    repeat = 10
+    outstring += '''
+r1, s1 = mychain.basic_rot(x11, y11, '''+str(first_degree)+''')
+'''
+    for i in range(2, int(repeat)+1):
+        outstring += "r"+str(i)+", s"+str(i)+"=mychain.basic_rot(r"+str(i-1)+", s"+str(i-1)+", "+str(first_degree)+")\n"
+ 
+    return outstring</t>
+<t tx="leo.20160627212541.1">@language python
+@tabwidth -4
+@others
 </t>
-<t tx="leo.20160618195347.1">@bg8_40323213.route('/ABCD')
-def ABCD():
-    return head_str + chain_str + ABCD(0, 0) + tail_str 
+<t tx="leo.20160627212541.2">from flask import Blueprint, request
+ 
+bg8_403232299 = Blueprint('bg8_403232299', __name__, url_prefix='/bg8_403232299', template_folder='templates')
+ 
+head_str = '''
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;網際 2D 繪圖&lt;/title&gt;
+    &lt;!-- IE 9: display inline SVG --&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="IE=9"&gt;
+&lt;script type="text/javascript" src="http://brython.info/src/brython_dist.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://cptocadp-2015fallhw.rhcloud.com/static/Cango-8v03.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://cptocadp-2015fallhw.rhcloud.com/static/Cango2D-6v13.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://cptocadp-2015fallhw.rhcloud.com/static/CangoAxes-1v33.js"&gt;&lt;/script&gt;
+ 
+&lt;/head&gt;
+&lt;body&gt;
+ 
+&lt;script&gt;
+window.onload=function(){
+brython(1);
+}
+&lt;/script&gt;
+ 
+&lt;canvas id="plotarea" width="800" height="800"&gt;&lt;/canvas&gt;
+'''
+ 
+tail_str = '''
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+'''
+ 
+chain_str = '''
+&lt;script type="text/python"&gt;
+from javascript import JSConstructor
+from browser import alert
+from browser import window
+import math
+ 
+cango = JSConstructor(window.Cango)
+cobj = JSConstructor(window.Cobj)
+shapedefs = window.shapeDefs
+obj2d = JSConstructor(window.Obj2D)
+cgo = cango("plotarea")
+ 
+cgo.setWorldCoords(-250, -250, 500, 500) 
+ 
+# 畫軸線
+cgo.drawAxes(0, 240, 0, 240, {
+    "strokeColor":"#aaaaaa",
+    "fillColor": "#aaaaaa",
+    "xTickInterval": 20,
+    "xLabelInterval": 20,
+    "yTickInterval": 20,
+    "yLabelInterval": 20})
+ 
+deg = math.pi/180  
+ 
+# 將繪製鏈條輪廓的內容寫成 class 物件
+class chain():
+    # 輪廓的外型設為 class variable
+    chamber = "M10.055 10.661 A9.652,9.652 0 0,0 9.310,22.570 A9.652,9.652 0 0,0 20.707,26.103 A7.810,7.810 0 0,0 25.215,34.196 A7.810,7.810 0 0,0 34.281,32.292 A7.810,7.810 0 0,0 35.150,23.069 A7.810,7.810 0 0,0 26.600,19.503 A9.652,9.652 0 0,0 21.804,8.577 A9.652,9.652 0 0,0 10.055,10.661 "
+    #chamber = "M 0, 0 L 0, -20 z"
+    cgoChamber = window.svgToCgoSVG(chamber)
+ 
+    def __init__(self, fillcolor="green", border=True, strokecolor= "tan", linewidth=2, scale=1):
+        self.fillcolor = fillcolor
+        self.border = border
+        self.strokecolor = strokecolor
+        self.linewidth = linewidth
+        self.scale = scale
+ 
+    # 利用鏈條起點與終點定義繪圖
+    def basic(self, x1, y1, x2, y2):
+        self.x1 = x1
+        self.y1 = y1
+        self.x2 = x2
+        self.y2 = y2
+        # 注意, cgo.Chamber 為成員變數
+        cmbr = cobj(self.cgoChamber, "SHAPE", {
+                "fillColor": self.fillcolor,
+                "border": self.border,
+                "strokeColor": self.strokecolor,
+                "lineWidth": self.linewidth })
+ 
+        # hole 為原點位置
+        hole = cobj(shapedefs.circle(4*self.scale), "PATH")
+        cmbr.appendPath(hole)
+ 
+        # 複製 cmbr, 然後命名為 basic1
+        basic1 = cmbr.dup()
+        # 因為鏈條的角度由原點向下垂直, 所以必須轉 90 度, 再考量 atan2 的轉角
+        basic1.rotate(math.atan2(y2-y1, x2-x1)/deg+90)
+ 
+        # 放大 scale 倍
+        cgo.render(basic1, x1, y1, self.scale, 0)
+ 
+    # 利用鏈條起點與旋轉角度定義繪圖, 使用內定的 color, border 與 linewidth 變數
+    def basic_rot(self, x1, y1, rot, v=False):
+        # 若 v 為 True 則為虛擬 chain, 不 render
+        self.x1 = x1
+        self.y1 = y1
+        self.rot = rot
+        self.v = v
+        # 注意, cgoChamber 為成員變數
+        cmbr = cobj(self.cgoChamber, "SHAPE", {
+                "fillColor": self.fillcolor,
+                "border": self.border,
+                "strokeColor": self.strokecolor,
+                "lineWidth": self.linewidth })
+ 
+        # hole0 為原點位置
+        hole = cobj(shapedefs.circle(4*self.scale), "PATH")
+        cmbr.appendPath(hole)
+        # 根據旋轉角度, 計算 x2 與 y2
+        x2 = x1 + 20*math.cos(rot*deg)*self.scale
+        y2 = y1 + 20*math.sin(rot*deg)*self.scale
+ 
+        # 複製 cmbr, 然後命名為 basic1
+        basic1 = cmbr.dup()
+        # 因為鏈條的角度由原點向下垂直, 所以必須轉 90 度, 再考量 atan2 的轉角
+        basic1.rotate(rot+90)
+ 
+        # 放大 scale 倍
+        if v == False:
+            cgo.render(basic1, x1, y1, self.scale, 0)
+ 
+        return x2, y2
+'''
+
+</t>
+<t tx="leo.20160627212541.3">@bg8_403232299.route('/fish')
+def fish():
+    return head_str + chain_str + fish(0, 0) + tail_str
+
 
 # 傳繪 A 函式內容
-def ABCD(x, y, scale=1, color="purple"):
+def fish(x, y, scale=1, color="yellow"):
     outstring = '''
 # 利用 chain class 建立案例, 對應到 mychain 變數
 mychain = chain(scale='''+str(scale)+''', fillcolor="'''+str(color)+'''")
  
-# 畫 B
-# 左邊四個垂直單元
-x1, y1 = mychain.basic_rot(0, 0, 90)
-x2, y2 = mychain.basic_rot(x1, y1, 90)
-x3, y3 = mychain.basic_rot(x2, y2, 90)
-x4, y4 = mychain.basic_rot(x3, y3, 90)
-# 上方一個水平單元
-x5, y5 = mychain.basic_rot(x4, y4, 0)
-# 右斜 -30 度
-x6, y6 = mychain.basic_rot(x5, y5, -30)
-# 右上垂直向下單元
-x7, y7 = mychain.basic_rot(x6, y6, -90)
-# 右斜 240 度
-x8, y8 = mychain.basic_rot(x7, y7, 210)
-# 中間水平
-mychain.basic(x8, y8, x2, y2)
-# 右下斜 -30 度
-x10, y10 = mychain.basic_rot(x8, y8, -30)
-# 右下垂直向下單元
-x11, y11 = mychain.basic_rot(x10, y10, -90)
-# 右下斜 240 度
-x12, y12 = mychain.basic_rot(x11, y11, 210)
-# 水平接回起點
-mychain.basic(x12,y12, 0, 0)
-
-
-cgo.setWorldCoords(-247.5, -350, 500, 500) 
-# 畫 A
+# 畫 A1
 # 左邊兩個垂直單元
-x1, y1 = mychain.basic_rot(0, 0, 90)
-x2, y2 = mychain.basic_rot(x1, y1, 90)
-# 左斜邊兩個單元
-x3, y3 = mychain.basic_rot(x2, y2, 80)
-x4, y4 = mychain.basic_rot(x3, y3, 71)
-# 最上方水平單元
-x5, y5 = mychain.basic_rot(x4, y4, 0)
-# 右斜邊兩個單元
-x6, y6 = mychain.basic_rot(x5, y5, -71)
-x7, y7 = mychain.basic_rot(x6, y6, -80)
-# 右邊兩個垂直單元
-x8, y8 = mychain.basic_rot(x7, y7, -90)
-x9, y9 = mychain.basic_rot(x8, y8, -90)
-# 中間兩個水平單元
-x10, y10 = mychain.basic_rot(x8, y8, -180)
-mychain.basic(x10, y10, x1, y1)
+x1, y1 = mychain.basic_rot('''+str(x)+","+str(y)+''', 90)
+x2, y2 = mychain.basic_rot(x0, y0, 90)
 
-cgo.setWorldCoords(-55, -50, 500, 500) 
-# 畫 D
-# 左邊四個垂直單元
-x1, y1 = mychain.basic_rot(0+65*3, 0, 90)
-x2, y2 = mychain.basic_rot(x1, y1, 90)
-x3, y3 = mychain.basic_rot(x2, y2, 90)
-x4, y4 = mychain.basic_rot(x3, y3, 90)
-# 上方一個水平單元
-x5, y5 = mychain.basic_rot(x4, y4, 0)
-# 右斜 -40 度
-x6, y6 = mychain.basic_rot(x5, y5, -40)
-x7, y7 = mychain.basic_rot(x6, y6, -60)
-# 右中垂直向下單元
-x8, y8 = mychain.basic_rot(x7, y7, -90)
-# -120 度
-x9, y9 = mychain.basic_rot(x8, y8, -120)
-# -140
-x10, y10 = mychain.basic_rot(x9, y9, -140)
-# 水平接回原點
-mychain.basic(x10, y10, 0+65*3, 0)
-
-cgo.setWorldCoords(-120, -150, 500, 500) 
-
-# 畫 C
-# 上半部
-# 左邊中間垂直起點, 圓心位於線段中央, y 方向再向上平移兩個鏈條圓心距單位
-x1, y1 = mychain.basic_rot(0+65*2, -10+10+20*math.sin(80*deg)+20*math.sin(30*deg), 90)
-# 上方轉 80 度
-x2, y2 = mychain.basic_rot(x1, y1, 80)
-# 上方轉 30 度
-x3, y3 = mychain.basic_rot(x2, y2, 30)
-# 上方水平
-x4, y4 = mychain.basic_rot(x3, y3, 0)
-# 下半部, 從起點開始 -80 度
-x5, y5 = mychain.basic_rot(0+65*2, -10+10+20*math.sin(80*deg)+20*math.sin(30*deg), -80)
-# 下斜 -30 度
-x6, y6 = mychain.basic_rot(x5, y5, -30)
-# 下方水平單元
-x7, y7 = mychain.basic_rot(x6, y6, -0)
-
-&lt;/script&gt;
-&lt;/body&gt;&lt;/html&gt;
 '''
-    return outstring
-</t>
-<t tx="leo.20160627214404.1">@bg8_40323213.route('/Z')
-def Z():
-    return head_str + chain_str + Z(0, 0) + tail_str 
-
-# 傳繪 A 函式內容
-def Z(x, y, scale=1, color="purple"):
-    outstring = '''
-# 利用 chain class 建立案例, 對應到 mychain 變數
-mychain = chain(scale='''+str(scale)+''', fillcolor="'''+str(color)+'''")
  
-# 畫 Z
-# 左邊四個垂直單元
-x1, y1 = mychain.basic_rot(0, 60, 0)
-x2, y2 = mychain.basic_rot(x1, y1, 0)
-x3, y3 = mychain.basic_rot(x2, y2, 0)
-x4, y4 = mychain.basic_rot(x3, y3, 225)
-x5, y5 = mychain.basic_rot(x4, y4, 225)
-x6, y6 = mychain.basic_rot(x5, y5, 225)
-x7, y7 = mychain.basic_rot(x6, y6, 225)
-x8, y8 = mychain.basic_rot(x7, y7, 0)
-x9, y9 = mychain.basic_rot(x8, y8, 0)
-x10, y10 = mychain.basic_rot(x9, y9, 0)
-&lt;/script&gt;
-&lt;/body&gt;&lt;/html&gt;
-'''
-    return outstring
-</t>
+    return outstring</t>
 </tnodes>
 </leo_file>
