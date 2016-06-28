@@ -13,6 +13,7 @@ Pelican:
 40323237:https://tsrnnash.github.io/2016springcd_bG8/static/blog/40323237-cdw18-qi-mo-bao-gao.html
 
 40323239:https://tsrnnash.github.io/2016springcd_bG8/static/blog/40323239-cdw18-qi-mo-bao-gao.html
+
 ---------------------------------------------------------------------------------------
 2D繪圖:
 
@@ -25,6 +26,8 @@ Pelican:
 40323226:http://cdw11-40323200.rhcloud.com/bg8_403232266/a2626
 
 40323237:http://cdw11-40323200.rhcloud.com/bg8_40323237_2/O1
+
+40323239:http://cdw11-40323239.rhcloud.com/bg8_39/aa
 
 ---------------------------------------------------------------------------------------
 onshape:
