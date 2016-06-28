@@ -99,11 +99,10 @@ if __name__ == "__main__":
     app.run()
 
 #bg8
-app.register_blueprint(users.b.g8.bg8_40323237.bg8_40323237)
+app.register_blueprint(users.b.g8.bg8_40323213.bg8_40323213)
+app.register_blueprint(users.b.g8.bg8_40323213_1.bg8_40323213_1)
 
-app.register_blueprint(users.b.g8.bg8_40323237_1.bg8_40323237_1)
 
-app.register_blueprint(users.b.g8.bg8_40323237_2.bg8_40323237_2)
 </t>
 <t tx="amd.20160501221001.10">@app.route('/fileaxupload', methods=['POST'])
 # ajax jquery chunked file upload for flask
@@ -239,9 +238,9 @@ import os
 import init
 
 #bg8
-import users.b.g8.bg8_40323237
-import users.b.g8.bg8_40323237_1
-import users.b.g8.bg8_40323237_2
+import users.b.g8.bg8_40323213
+import users.b.g8.bg8_40323213_1
+
 
 # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
 _curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
